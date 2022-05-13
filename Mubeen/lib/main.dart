@@ -2,8 +2,6 @@ import 'package:assignment_1/src/authentication/auth_page.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-// import 'package:flutter/src/material/input_border.dart';
-
 void main() {
   runApp(const MyApp());
 }

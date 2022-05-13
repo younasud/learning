@@ -91,6 +91,7 @@ class _loginState extends State<login> {
                   ),
                 ),
                 TextFormField(
+                  obscureText: true,
                   decoration: InputDecoration(
                     hintText: 'Please Enter your password',
                     fillColor: greyBlack_Color,

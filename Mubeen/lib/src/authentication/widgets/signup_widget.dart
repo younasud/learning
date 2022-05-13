@@ -169,6 +169,7 @@ class _signupState extends State<signup> {
                   ),
                 ),
                 TextFormField(
+                  obscureText: true,
                   decoration: InputDecoration(
                     hintText: 'Please enter your password',
                     fillColor: greyBlack_Color,
@@ -188,6 +189,7 @@ class _signupState extends State<signup> {
                   height: 25,
                 ),
                 TextFormField(
+                  obscureText: true,
                   decoration: InputDecoration(
                     hintText: 'Confirm your password',
                     fillColor: greyBlack_Color,
@@ -207,7 +209,7 @@ class _signupState extends State<signup> {
                   height: 40,
                 ),
 
-                // Login Button
+                // SignUp Button
                 SizedBox(
                   width: 300,
                   height: 50,
